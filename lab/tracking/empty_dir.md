@@ -1,6 +1,9 @@
 # Question
 Does git track empty directories? 
-- [ ] Yes
+- [X] Yes
 - [ ] No
 
 # Explanation
+
+git does not ignore empty directories, it ignores
+ALL directories.

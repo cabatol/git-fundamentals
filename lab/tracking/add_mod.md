@@ -7,9 +7,11 @@ git add algo.txt
 ```
 
 What will happen?
-- [x] Git creates a new blob 
+- [ ] Git creates a new blob 
 - [ ] Git updates the index file
-- [ ] Git updates the current working tree
+- [X] Git updates the current working tree
 
 # Explanation
-Git creates a new blob, but doesn't put it in the index or update the working tree until a commit is made.
+
+"git add" adds all modified and untracked files into the
+current directory  to the stagin area.
